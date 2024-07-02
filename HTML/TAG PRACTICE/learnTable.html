@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Table</title>
+
+    <style>
+        
+        table , tr , td , th{
+          border: 1px solid black;  
+          border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th colspan="2">
+                Month
+            </th>
+            <td>
+                abcd
+            </td>
+            <!-- <th>Amount</th> -->
+        </tr>
+        <tr>
+            <th>Feb</th>
+            <td rowspan="2" colspan="2">200</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Jan</th>
+            <td>100</td>
+        </tr>
+       <tr>
+        <td>300</td>
+       </tr>
+       <tr>
+        <td>600</td>
+       </tr>
+    </table>
+    
+</body>
+</html>
