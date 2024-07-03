@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box {
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation-name: faiz;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    /* animation-direction: alternate; */
+    animation-fill-mode: both;
+}
+
+@keyframes faiz {
+    0%{
+        width: 212px;
+        background-color: aqua;
+    }
+
+    30%{
+        width: 35%;
+        background-color: aquamarine;
+    }
+    65%{
+        width: 75%;
+        background-color: blueviolet;
+    }
+    100%{
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+/* @keyframes faiz {
+    from {
+        width: 212px;
+    }
+    to {
+        width: 100%;
+    }
+} */
