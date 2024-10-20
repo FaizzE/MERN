@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Ensures the navbar sticks to the top */
+    z-index: 1000; /* Keeps it above other content */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: azure;
+    cursor: pointer;
+}
+.logo:hover {
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+}
+.links a:hover {
+    color: #dadada;
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.login-btn:hover {
+    color: black;
+}
+.hero {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 90vh;
+}
+.main {
+    background-color: salmon;
+    width: 100vw;
+    height: 100vh;
+}
+.content {
+    background-color: crimson;
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    width: 100vw;
+    height: 35vh;
+}

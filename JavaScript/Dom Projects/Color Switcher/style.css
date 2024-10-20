@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#btn {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+#grey{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: grey;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#burlywood{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#selmon{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#lightgreen{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
